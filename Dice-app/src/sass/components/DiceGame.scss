@@ -1,0 +1,22 @@
+$button-color: white;
+.DiceGame{
+    transform: translateX(40vw);
+    width:50rem;
+    margin-top:5rem;
+    &__btn{
+        background-color:lightgreen;
+        border-radius: 4px;
+        width:20rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: $button-color;
+        font-size:20px;
+        font-weight: 700;
+        margin-top:5rem;
+        margin-left:13rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

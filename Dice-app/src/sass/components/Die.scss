@@ -1,0 +1,20 @@
+[class^="fa"]{
+    color:red;
+    font-size:10rem;
+    margin-right: 3rem;
+} 
+
+.shakeable{
+    animation: shakeable 5s ease-in;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes shakeable{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
