@@ -1,7 +1,9 @@
 The Modern React Bootcamp by Colt Steele
 
 Udemy: The Modern React Bootcamp by Colt Steele
-Course: (https://www.udemy.com/modern-react-bootcamp/)\
+
+Course: (https://www.udemy.com/modern-react-bootcamp/)
+
 Course length: 39 hours
 
 ![alt text](https://user-images.githubusercontent.com/24855472/61600077-bea36b80-abfc-11e9-9261-02d2d20652f9.png)
