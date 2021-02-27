@@ -1,0 +1,46 @@
+$CoinFlipper-heading: 2rem;
+$Coin-width: 20rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5;
+}
+.CoinFlipper{
+    align-items: center;
+    margin-left:42vw;
+
+    &__title{
+        font-size: $CoinFlipper-heading;
+    }
+
+    &__btn{
+        padding: 0.2rem 0.5rem;
+        margin-left: 6rem;
+    }
+}
+
+.Coin{
+    width:$Coin-width;
+    margin-left: -30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flipable{
+    animation: flipable 3.5s ease-in;
+    animation-fill-mode: backwards;
+}
+
+@keyframes flipable{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
