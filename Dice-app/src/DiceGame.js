@@ -6,11 +6,11 @@ class DiceGame extends Component{
         super(props);
         this.state = {
             rolling:false,
-            rolled: false,
             numbers : []
         }
         this.roll = this.roll.bind(this);
         this.setUpDices = this.setUpDices.bind(this);
+        this.makeRandomNumbers = this.makeRandomNumbers.bind(this);
 
     }
     
@@ -20,13 +20,22 @@ class DiceGame extends Component{
         numberOfDices : 10
     }
 
-    roll(e){
+    makeRandomNumbers(){
         let randNums = []
         for(let i = 0; i < this.props.numberOfDices; i++){
             let randNum = Math.floor(Math.random() * 6) +1;
             randNums.push(randNum);
         }
-        this.setState({numbers:randNums});
+        return randNums;
+    }
+    roll(e){
+        let randNums = this.makeRandomNumbers();
+        this.setState({numbers:randNums,rolling:true});
+        setTimeout(() => {
+            this.setState({rolling : false });
+            console.log("working timeout");
+            console.log(this);
+        }, 5000);
     }
 
     setUpDices(){
@@ -35,7 +44,7 @@ class DiceGame extends Component{
             let i = -1;
             dies = this.state.numbers.map((x)=>{    
                 i++;
-                var die =  <Die dieNumber = {this.state.numbers[i]} shakeable={true} />
+                var die =  <Die dieNumber = {this.state.numbers[i]} shakeable={this.state.rolling} />
                 return die;
             }) 
          }else{
@@ -56,7 +65,11 @@ class DiceGame extends Component{
                <div className="DiceGame-Dices">
                     {dies}
                </div>
-                <button className="DiceGame__btn" onClick={this.roll}>Roll</button>
+                <button className="DiceGame__btn" onClick={this.roll} disabled={this.state.rolling}> 
+                                                                                {this.state.rolling === true
+                                                                                 ? "Rolling..." 
+                                                                                : "Roll"}
+                                                                                </button>
            </div>
         )
     }
