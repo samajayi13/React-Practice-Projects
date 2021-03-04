@@ -21,7 +21,7 @@ Course Outline:
 * Section 8: React State Patterns ✓
 * Section 9: State Exercises! ✓
 * Section 10: The World of React Events ✓
-* Section 11: Hangman Exercise
+* Section 11: Hangman Exercise ✓
 * Section 12: Lights Out Game
 * Section 13: Forms in React
 * Section 14: Forms Exercise
