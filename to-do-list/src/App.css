@@ -1,0 +1,98 @@
+body{
+  background: rgb(103,200,227);
+  background: linear-gradient(90deg, rgba(103,200,227,1) 11%, rgba(110,224,245,1) 41%, rgba(205,244,243,1) 66%, rgba(221,192,229,1) 99%);
+}
+
+.ToDoList{
+  max-width:420px;
+  background-color:#f45353;
+  color:white;
+  margin:7vh auto;
+ -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.46);
+}
+
+.ToDoList__heading{
+  margin-left:40px;
+  padding-top:15px;
+  border-bottom: 1px lightgrey solid;
+  padding-bottom:5px;
+  width:345px;
+}
+
+.ToDoList__heading-main{
+  font-size:45px !important;
+  word-spacing: 5px;
+}
+.ToDoList__heading-sub{
+  font-size:12px !important;
+  display:block;
+  padding-left:10px;
+  word-spacing: 5px;
+
+}
+
+.ToDoTasks{
+  margin-top:30px;
+}
+
+.ToDoTasks .ToDoTask{
+  background-color:#ef6262;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:5px;
+  padding-left:45px;
+}
+
+.ToDoTasks .ToDoTask .ToDoTask__task-name{
+  float:left;
+  font-size:14px;
+}
+
+.ToDoTasks .ToDoTask .icons{
+  margin-left:280px;
+}
+
+.ToDoTasks .ToDoTask .icons i{
+  margin-right: 10px;
+}
+
+.ToDoForm{
+  margin-top:30px;
+  padding-left:45px;
+
+}
+.ToDoForm h3{
+  font-size:16px;
+  font-weight: 700;
+}
+
+.ToDoForm .form-inline{
+  margin-left:-20px;
+}
+
+.ToDoForm .form-inline .form-group input[type="text"]{
+  width:235px;
+  margin-right: 0px !important;
+}
+
+.ToDoForm .form-inline button {
+  margin-left: -12px !important;
+  position: relative;
+  top:5px;
+  background-color:inherit !important;
+  border: 0.5px lightgrey solid !important;
+  font-size:12px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:3px;
+}
+
+.edit-form{
+  background-color:#ef6262;
+  margin-top:0px !important;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
