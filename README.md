@@ -22,9 +22,9 @@ Course Outline:
 * Section 9: State Exercises! ✓
 * Section 10: The World of React Events ✓
 * Section 11: Hangman Exercise ✓
-* Section 12: Lights Out Game
-* Section 13: Forms in React
-* Section 14: Forms Exercise
+* Section 12: Lights Out Game ✓
+* Section 13: Forms in React ✓
+* Section 14: Forms Exercise ✓
 * Section 15: Todo List Project
 * Section 16: Building Yahtzee
 * Section 17: React Lifecycle Methods
