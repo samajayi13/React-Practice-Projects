@@ -28,7 +28,7 @@ Course Outline:
 * Section 15: Todo List Project ✓
 * Section 16: Building Yahtzee ✓
 * Section 17: React Lifecycle Methods ✓
-* Section 18: LifeCycle Methods & API Exercise
+* Section 18: LifeCycle Methods & API Exercise ✓
 * Section 19: Building the Dad Jokes App
 * Section 20: React Router:
 * Section 21: Vending Machine Exercise
