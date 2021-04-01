@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+}
+.DeckOfCards{
+    margin:0 40vw;
+    width:500px;
+    color:white;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.heading{
+    font-size:35px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-left: 30px;
+}
+
+.heading .far{
+    font-size:30px;
+}
+
+.sub-title{
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.DeckOfCards .far{
+    margin:0 5px;
+}
+
+.deal-btn{
+    background-color:lightgreen;
+    font-size:12px;
+    position: absolute;
+    left:25%;
+    color:white;
+    padding: 10px 30px;
+    text-transform: uppercase;;
+}
+
+.card{
+    position:absolute;
+    left:160px;
+    top:180px;
+    width:100px
+}
