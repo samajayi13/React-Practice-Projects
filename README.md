@@ -25,10 +25,10 @@ Course Outline:
 * Section 12: Lights Out Game ✓
 * Section 13: Forms in React ✓
 * Section 14: Forms Exercise ✓
-* Section 15: Todo List Project
-* Section 16: Building Yahtzee
-* Section 17: React Lifecycle Methods
-* Section 18: LifeCycle Methods & API Exercise
+* Section 15: Todo List Project ✓
+* Section 16: Building Yahtzee ✓
+* Section 17: React Lifecycle Methods ✓
+* Section 18: LifeCycle Methods & API Exercise ✓
 * Section 19: Building the Dad Jokes App
 * Section 20: React Router:
 * Section 21: Vending Machine Exercise
